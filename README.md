@@ -98,8 +98,4 @@ Bạn có thể tùy chỉnh giao diện chatbot trong các file:
 
 ## Tác giả
 
-- Tên tác giả/nhóm tác giả
-
-## Giấy phép
-
-Dự án được phát hành dưới giấy phép MIT.
+- Nhóm 07 - Đồ án cơ sở ngành - FitVAA
