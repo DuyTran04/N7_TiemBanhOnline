@@ -10,8 +10,7 @@
 - Hiển thị danh mục và sản phẩm bánh
 - Tìm kiếm sản phẩm
 - Đánh giá sản phẩm
-- Giỏ hàng và thanh toán
-- Áp dụng mã giảm giá
+- Giỏ hàng và checkout (Nhưng chưa ổn về thanh toán tiền chuyển khoản)
 - Đăng ký, đăng nhập, quản lý tài khoản
 - Theo dõi đơn hàng
 - Chatbot AI hỗ trợ khách hàng
