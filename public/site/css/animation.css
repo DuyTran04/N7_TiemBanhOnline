@@ -1,0 +1,151 @@
+/* Add to Cart Animation */
+.add-to-cart-success {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    animation: slideIn 0.5s forwards;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.add-to-cart-success i {
+    margin-right: 10px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.flying-item {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    z-index: 9998;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.shake-animation {
+    animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+/* Scroll Animations */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-on-scroll.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Product hover effects */
+.pro-img img, .new-pro-img img {
+    transition: transform 0.3s ease;
+}
+
+.pro-block:hover, .new-pro-block:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effects */
+.btn-root, .site-btn, button[type="submit"], .inc.qtybtn, .dec.qtybtn {
+    transition: all 0.3s ease;
+}
+
+.btn-root:hover, .site-btn:hover, button[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input animations */
+.form-group {
+    position: relative;
+}
+
+.input-focused label {
+    transform: translateY(-20px);
+    font-size: 0.8em;
+    color: var(--primary-color);
+}
+
+/* Page transitions */
+body {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Typing indicator animation */
+.typing-indicator .message-bubble {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.typing-dot {
+    background-color: #999;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    display: inline-block;
+    animation: typingAnimation 1.5s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes typingAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
