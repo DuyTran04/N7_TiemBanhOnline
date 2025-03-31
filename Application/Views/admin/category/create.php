@@ -11,7 +11,7 @@
 <form action="./?module=admin&controller=category&action=store" method="POST" role="form" name="categoryForm" onsubmit="return validateCategoryForm();">
 
     <div class="form-group">
-        <label for="">Name</label>
+        <label for="">Tên sản phẩm</label>
         <small id="ad-ctg-cr-name-err"></small>
         <input type="text" class="form-control" name="name" placeholder="Input name" id="ad-ctg-cr-name" onkeyup="validateNotEmpty(this, 'Category name');">
         <?php if (!empty($message['error-name'])) : ?>

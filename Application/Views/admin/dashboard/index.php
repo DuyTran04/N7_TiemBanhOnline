@@ -9,7 +9,7 @@
             <div class="inner">
                 <h3><?= $total_orders ?></h3>
 
-                <p>Total Orders</p>
+                <p>Số lượng đặt hàng</p>
             </div>
             <div class="icon">
                 <i class="ion ion-bag"></i>
@@ -24,7 +24,7 @@
             <div class="inner">
                 <h3><?= $total_products ?></h3>
 
-                <p>Total Products</p>
+                <p>Số lượng sản phẩm</p>
             </div>
             <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -39,7 +39,7 @@
             <div class="inner">
                 <h3><?= $total_customers ?></h3>
 
-                <p>Total Customers</p>
+                <p>Sô lượng khách hàng</p>
             </div>
             <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -54,7 +54,7 @@
             <div class="inner">
                 <h3><?= $avg_rating ?><sup style="font-size: 20px">/5</sup></h3>
 
-                <p>Average Rating</p>
+                <p>Trung bình đánh giá</p>
             </div>
             <div class="icon">
                 <i class="ion ion-pie-graph"></i>
@@ -75,11 +75,11 @@
             <thead>
                 <tr>
                     <th>No.</th>
-                    <th>Name</th>
-                    <th>Category</th>
-                    <th>Price</th>
-                    <th>Image</th>
-                    <th>Purchased</th>
+                    <th>Tên</th>
+                    <th>Danh mục</th>
+                    <th>Giá</th>
+                    <th>Ảnh</th>
+                    <th>Đã bán</th>
                 </tr>
             </thead>
             <tbody>
@@ -115,11 +115,11 @@
             <thead>
                 <tr>
                     <th>No.</th>
-                    <th>Name</th>
-                    <th>Phone</th>
-                    <th>Province</th>
-                    <th>Orders</th>
-                    <th>Spendings</th>
+                    <th>Tên khách hàng</th>
+                    <th>Số điện thoại</th>
+                    <th>Thành phố</th>
+                    <th>Số lượng</th>
+                    <th>Hóa đơn</th>
                 </tr>
             </thead>
             <tbody>

@@ -22,15 +22,15 @@
 			<div class="form-group">
 				<label for="ad-bn-cr-site">Site</label>
 				<select name="site" class="form-control" id='ad-bn-cr-site'>
-					<option value="Home" selected>Home</option>
+					<option value="Home" selected>Trang chủ</option>
 					<option value="About">About</option>
 					<option value="Blog">Blog</option>
 					<option value="Blog Detail">Blog Detail</option>
-					<option value="Product">Product</option>
-					<option value="Product Detail">Product Detail</option>
-					<option value="Contact">Contact</option>
-					<option value="Cart">Cart</option>
-					<option value="Checkout">Checkout</option>
+					<option value="Product">Menu</option>
+					<option value="Product Detail">Thông tin bánh</option>
+					<option value="Contact">Liên hệ</option>
+					<option value="Cart">Giỏ hàng</option>
+					<option value="Checkout">Thanh toán</option>
 				</select>
 			</div>
 

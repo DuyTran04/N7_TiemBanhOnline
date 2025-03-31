@@ -10,8 +10,8 @@
     <div class="container-fluid banner-title">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="motto">Contact</h2>
-                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>Contact</span>
+                <h2 id="motto">Liên hệ</h2>
+                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>Liên hệ</span>
             </div>
 
         </div>

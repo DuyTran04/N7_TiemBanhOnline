@@ -11,7 +11,7 @@
                     <h6>MADE WITH THE LOVE OF THE BEST BAKERS</h6>
                 </div> -->
             </div>
-        </div>
+        </div>  
     </section>
 
     <section class="quickshopping">
@@ -198,7 +198,7 @@
                                     <br>
                                 </p>
                                 <span id="star-icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                                <h5> Nguyễn Văn B </h5>
+                                <h5> Goldem Samgay </h5>
                                 <span id="job"> ĐÁNH GIÁ VIÊN </span>
                             </div>
                             <div class="customer-img">
@@ -216,7 +216,7 @@
                                     <br>
                                 </p>
                                 <span id="star-icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                                <h5> NGUYỄN VĂN C </h5>
+                                <h5> Silver Ramsay </h5>
                                 <span id="job"> ẨM THỰC VIÊN </span>
                             </div>
                             <div class="customer-img">
@@ -234,7 +234,7 @@
                                     <br>
                                 </p>
                                 <span id="star-icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                                <h5> JIMMY GORDON </h5>
+                                <h5> Đàm Vĩnh Hưng </h5>
                                 <span id="job"> Model </span>
                             </div>
                             <div class="customer-img">

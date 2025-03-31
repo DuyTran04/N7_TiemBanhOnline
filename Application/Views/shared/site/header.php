@@ -86,19 +86,19 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto my-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./" title="home">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./" title="home">Trang chủ<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href='./?controller=home&action=about' title="about">About</a>
+                        <a class="nav-link" href='./?controller=home&action=about' title="about">Thông tin</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href='./?controller=product&action=allProducts' title="product">Product</a>
+                        <a class="nav-link" href='./?controller=product&action=allProducts' title="product">Menu</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href='./?controller=contact' title="contact">Contact</a>
+                        <a class="nav-link" href='./?controller=contact' title="contact">Liên hệ</a>
                     </li>
 
                     <li class="nav-item">

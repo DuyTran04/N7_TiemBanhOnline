@@ -10,8 +10,8 @@
     <div class="container-fluid banner-title">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="motto">Your cart</h2>
-                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>Cart</span>
+                <h2 id="motto">Giỏ hàng của bạn</h2>
+                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>Giỏ hàng</span>
             </div>
 
         </div>
@@ -151,7 +151,7 @@
                                     <?= strtoupper($coupon_id) ?></span>
                             <?php endif; ?>
                             <?php if ($coupon == 0) : ?>
-                                <span>Không phiếu giảm giá</span>
+                                <span>Không có mã giảm giá được áp dụng</span>
                             <?php endif; ?>
                         <?php else : ?>
                             <span>Không phiếu giảm giá</span>

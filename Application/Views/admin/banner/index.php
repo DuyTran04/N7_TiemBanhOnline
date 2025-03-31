@@ -16,11 +16,11 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Name</th>
-            <th>Site</th>
-            <th>Status</th>
-            <th>Created Date</th>
-            <th>Image</th>
+            <th>Tên</th>
+            <th>Trang</th>
+            <th>Trạng thái</th>
+            <th>Ngày tạo</th>
+            <th>Ảnh</th>
             <th class="text-right">Actions</th>
         </tr>
     </thead>

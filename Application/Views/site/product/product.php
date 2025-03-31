@@ -10,8 +10,8 @@
     <div class="container-fluid banner-title">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="motto">Product</h2>
-                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>Product</span>
+                <h2 id="motto">Menu Bánh</h2>
+                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>Menu Bánh</span>
             </div>
 
         </div>

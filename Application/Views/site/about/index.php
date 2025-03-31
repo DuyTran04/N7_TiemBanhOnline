@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 id="motto">About us</h2>
-                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>About</span>
+                <span>Home</span> &nbsp;<span>\\</span> &nbsp;<span>Thông tin</span>
             </div>
 
         </div>
@@ -61,7 +61,7 @@
                     <div class="signature">
                         <img src="./public/site/img/about/sign.png" alt="">
                         <div>
-                            <h6>NGUYEN VAN A</h6> <span> - Store owner</span>
+                            <h6>Golden Ramsay</h6> <span> - Store owner</span>
                         </div>
                     </div>
                 </div>
