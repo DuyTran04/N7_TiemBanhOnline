@@ -30,13 +30,13 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Name</th>
-            <th>Category</th>
-            <th>Price/ Sale</th>
-            <th>Status</th>
-            <th>Created Date</th>
-            <th>Image</th>
-            <th class="text-right">Actions</th>
+            <th>Tên</th>
+            <th>Danh mục</th>
+            <th>Giá/Sale</th>
+            <th>Trạng thái</th>
+            <th>Ngày thêm</th>
+            <th>Ảnh</th>
+            <th class="text-right">Chỉnh sửa/Xóa</th>
         </tr>
     </thead>
     <tbody>
@@ -50,10 +50,10 @@
             </td>
             <td>
                 <?php if ($model['status'] == 0) : ?>
-                <span class="badge badge-danger">Private</span>
+                <span class="badge badge-danger">Ẩn</span>
                 <?php else : ?>
 
-                <span class="badge badge-success">Public</span>
+                <span class="badge badge-success">Mở bán</span>
                 <?php endif; ?>
             </td>
             <td><?= $model['created_at'] ?></td>

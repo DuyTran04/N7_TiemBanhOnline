@@ -28,11 +28,11 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Discount value</th>
-            <th>Available use</th>
-            <th>Status</th>
-            <th class="text-center">Created Date</th>
-            <th class="text-center">Actions</th>
+            <th>Giá trị</th>
+            <th>Số lần sử dụng</th>
+            <th>Trạng thái</th>
+            <th class="text-center">Ngày tạo</th>
+            <th class="text-center">Sửa/Xóa</th>
         </tr>
     </thead>
     <tbody>
@@ -46,9 +46,9 @@
 
                 <td>
                     <?php if ($model['status'] == 0) : ?>
-                        <span class="badge badge-danger">Expired</span>
+                        <span class="badge badge-danger">Hết hạn</span>
                     <?php else : ?>
-                        <span class="badge badge-success">Active</span>
+                        <span class="badge badge-success">Có thể dùng</span>
                     <?php endif; ?>
                 </td>
                 <td class="text-center"><?= $model['created_at'] ?></td>

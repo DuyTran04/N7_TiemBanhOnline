@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-7">
             <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">Tên</label>
                 <small id="ad-pd-cr-name-err"></small>
                 <input type="text" class="form-control" name="name" placeholder="Input name" id="ad-pd-cr-name" onkeyup="validateNotEmpty(this, 'Product name');">
                 <?php if (!empty($message['error-name'])) : ?>
@@ -20,12 +20,12 @@
             </div>
 
             <div class="form-group">
-                <label for="description">Description</label>
+                <label for="description">Mô tả</label>
                 <textarea name="description" id="content" class="form-control" placeholder="Input description" rows="5" style="height:140px"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="origin">Origin</label>
+                <label for="origin">Nguồn gốc</label>
                 <select name="origin" class="form-control">
                     <option value="usa">USA</option>
                     <option value="vn">Vietnam</option>
@@ -33,13 +33,13 @@
             </div>
 
             <div class="form-group">
-                <label for="image">Product Image</label>
+                <label for="image">Ảnh sản phẩm</label>
                 <small id="actual-btn-err"></small>
                 <br>
                 <input type="file" name="image" id="actual-btn" hidden onchange="readURL(this);">
 
                 <div class="input-group">
-                    <span class="form-control" id="file-chosen">No file chosen</span>
+                    <span class="form-control" id="file-chosen">Không có file được chọn</span>
                     <div class="input-group-append">
                         <label for="actual-btn" id='file-label' class="btn btn-sm btn-danger"><i class="fa fa-folder-open"></i></label>
                     </div>
@@ -56,7 +56,7 @@
         </div>
         <div class="col-md-5">
             <div class="form-group">
-                <label for="category_id">Category</label>
+                <label for="category_id">Danh mục</label>
                 <select name="category_id" class="form-control">
                     <?php foreach ($cats as $cat) : ?>
                         <option value="<?= $cat['id'] ?>"> <?= $cat['name'] ?></option>
@@ -66,14 +66,14 @@
 
             </div>
             <div class="form-group">
-                <label for="price">Price ($)</label>
+                <label for="price">Giá ($)</label>
                 <small id="ad-pd-cr-price-err"></small>
                 <input type="number" class="form-control" step="0.01" name="price" placeholder="Input price" id="ad-pd-cr-price" onkeyup="validateFloat(this, 'Price', 0.01);">
 
             </div>
 
             <div class="form-group">
-                <label for="sale_price" style="display:inline-block">Sale Price ($)</label>&nbsp;
+                <label for="sale_price" style="display:inline-block">Sale ($)</label>&nbsp;
                 <small class="notice">0 is unset</small>
                 <small id="ad-pd-cr-sale_price-err"></small>
                 <input type="number" class="form-control" step="0.01" name="sale_price" placeholder="Input Sale Price" id="ad-pd-cr-sale_price" onkeyup="validateSalePrice(this, 'ad-pd-cr-price');">
@@ -83,13 +83,13 @@
 
 
             <div class="form-group">
-                <label for="quantity">Quantity</label>
+                <label for="quantity">Số lượng</label>
                 <small id="ad-pd-cr-quantity-err"></small>
                 <input type="number" class="form-control" name="quantity" placeholder="Input quantity" id="ad-pd-cr-quantity" onkeyup="validateInt(this, 'Quantity');">
             </div>
 
             <div class="form-group">
-                <label for="status">Status</label>
+                <label for="status">Trạng thái</label>
                 <select name="status" class="form-control">
                     <option value="1" selected>Public</option>
                     <option value="0">Private</option>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="form-group" style="text-align: right;">
-                <button type="submit" class="btn btn-primary">Add Product</button>
+                <button type="submit" class="btn btn-primary">Thêm</button>
             </div>
 
         </div>

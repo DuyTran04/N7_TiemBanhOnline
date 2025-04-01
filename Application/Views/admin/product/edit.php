@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-7">
             <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">Tên</label>
                 <small id="ad-pd-ed-name-err"></small>
                 <input type="text" class="form-control" name="name" placeholder="Input name" value="<?= $product['name'] ?>" id="ad-pd-ed-name" onkeyup="validateNotEmpty(this, 'Product name');">
                 <?php if (!empty($message['error-name'])) : ?>
@@ -20,12 +20,12 @@
             </div>
 
             <div class="form-group">
-                <label for="description">Description</label>
+                <label for="description">Mô tả</label>
                 <textarea name="description" id="content" class="form-control" placeholder="Input description" rows="5" style="height:140px"><?= $product['description'] ?></textarea>
             </div>
 
             <div class=" form-group">
-                <label for="origin">Origin</label>
+                <label for="origin">Nguồn gốc</label>
                 <select name="origin" class="form-control">
                     <option value="usa" <?= $product['origin'] == 'usa' ? 'selected' : '' ?>>USA</option>
                     <option value="vn" <?= $product['origin'] == 'vn' ? 'selected' : '' ?>>Vietnam</option>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="form-group">
-                <label for="image">Product Image</label>
+                <label for="image">Ảnh sản phẩm</label>
                 <small id="actual-btn-err"></small>
                 <br>
                 <input type="file" name="image" id="actual-btn" hidden onchange="readURL(this);">
@@ -56,7 +56,7 @@
         </div>
         <div class="col-md-5">
             <div class="form-group">
-                <label for="category_id">Category</label>
+                <label for="category_id">Danh mục</label>
                 <select name="category_id" class="form-control">
                     <?php foreach ($cats as $cat) : ?>
                         <option value="<?= $cat['id'] ?>" <?= $product['category_id'] == $cat['id'] ? 'selected' : '' ?>><?= $cat['name'] ?></option>
@@ -65,14 +65,14 @@
 
             </div>
             <div class="form-group">
-                <label for="price">Price ($)</label>
+                <label for="price">Giá ($)</label>
                 <small id="ad-pd-ed-price-err"></small>
                 <input value="<?= number_format($product['price'], 2, '.', '') ?>" type="number" class="form-control" step="0.01" name="price" placeholder="Input price" id="ad-pd-ed-price" onkeyup="validateFloat(this, 'Price', 0.01);">
 
             </div>
 
             <div class="form-group">
-                <label for="sale_price" style="display:inline-block">Sale Price ($)</label> &nbsp; <small class="notice">0 is unset</small>
+                <label for="sale_price" style="display:inline-block">Sale ($)</label> &nbsp; <small class="notice">0 is unset</small>
                 <small id="ad-pd-ed-sale_price-err"></small>
                 <input value="<?= number_format($product['sale_price'], 2, '.', '') ?>" type="number" step="0.01" class="form-control" name="sale_price" placeholder="Input Sale Price" id="ad-pd-ed-sale_price" onkeyup="validateSalePrice(this, 'ad-pd-ed-price');">
 
@@ -82,23 +82,23 @@
 
 
             <div class="form-group">
-                <label for="quantity">Quantity</label>
+                <label for="quantity">Số lượng</label>
                 <small id="ad-pd-ed-quantity-err"></small>
                 <input value="<?= $product['quantity'] ?>" type="number" class="form-control" name="quantity" placeholder="Input quantity" id="ad-pd-ed-quantity" onkeyup="validateInt(this, 'Quantity');">
             </div>
 
             <div class="form-group">
-                <label for="status">Status</label>
+                <label for="status">Trạng thái</label>
                 <select name="status" class="form-control">
-                    <option value="1" <?= $product['status'] == '1' ? 'selected' : '' ?>>Public</option>
-                    <option value="0" <?= $product['status'] == '0' ? 'selected' : '' ?>>Private</option>
+                    <option value="1" <?= $product['status'] == '1' ? 'selected' : '' ?>>Mở bán</option>
+                    <option value="0" <?= $product['status'] == '0' ? 'selected' : '' ?>>Ẩn</option>
                 </select>
 
 
             </div>
 
             <div class="form-group" style="text-align: right;">
-                <button type="submit" class="btn btn-primary">Save Product</button>
+                <button type="submit" class="btn btn-primary">Cập nhật</button>
             </div>
 
         </div>

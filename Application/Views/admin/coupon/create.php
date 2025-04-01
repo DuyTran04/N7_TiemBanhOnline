@@ -15,7 +15,7 @@
             <form action="./?module=admin&controller=coupon&action=store" method="POST" role="form" name="couponForm" onsubmit="return validateCouponForm();">
 
                 <div class="form-group">
-                    <label for="coupon-id">Coupon Name</label>
+                    <label for="coupon-id">Mã giảm giá</label>
                     <small id="coupon-id-err"></small>
                     <input type="text" class="form-control" name="id" placeholder="Input coupon name" id="coupon-id" onkeyup="validateNotEmpty(this, 'Coupon name'); this.value = this.value.toUpperCase();">
                     <?php if (!empty($message['error-name'])) : ?>
@@ -23,27 +23,27 @@
                     <?php endif; ?>
                 </div>
                 <div class="form-group">
-                    <label for="coupon-value">Discount value (%)</label>
+                    <label for="coupon-value">Giá trị (%)</label>
                     <small id="coupon-value-err"></small>
                     <input type="number" class="form-control" step="0.1" name="coupon_value" placeholder="Input discount value" id="coupon-value" onkeyup="validateFloat(this, 'Discount', 1);" min="1">
                 </div>
 
                 <div class="form-group">
-                    <label for="coupon-use">Available uses</label>
+                    <label for="coupon-use">Số lần sử dụng</label>
                     <small id="coupon-use-err"></small>
                     <input type="number" class="form-control" step="1" name="used_times" placeholder="Input values of available uses" id="coupon-use" onkeyup="validateInt(this, 'Available use');">
                 </div>
 
                 <div class="form-group">
-                    <label for="status">Status</label>
+                    <label for="status">Trạng thái</label>
 
                     <select name="status" class="form-control" id="status">
-                        <option value="1">Active</option>
-                        <option value="0">Expired</option>
+                        <option value="1">Có thể dùng</option>
+                        <option value="0">Hết hạn</option>
                     </select>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Save Data</button>
+                <button type="submit" class="btn btn-primary">Lưu</button>
             </form>
         </div>
 
