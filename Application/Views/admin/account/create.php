@@ -39,14 +39,14 @@
                     <div class="bill-form-block">
                         <div class="form-group row">
                             <div class="col-md-6">
-                                <label for="fname">First name <span class="asterisk">*</span></label>
+                                <label for="fname">Tên <span class="asterisk">*</span></label>
                                 <input type="text" name="fname" id="fname" class="form-control" aria-describedby="helpId" onkeyup="validateName(this, 'First name')">
                                 <small class="addAccErr" id="fname-err"></small>
 
                             </div>
 
                             <div class="col-md-6">
-                                <label for="lname">Last name <span class="asterisk">*</span></label>
+                                <label for="lname">Họ <span class="asterisk">*</span></label>
                                 <input type="text" name="lname" id="lname" class="form-control" aria-describedby="helpId" onkeyup="validateName(this, 'Last name')">
                                 <small class="addAccErr" id="lname-err"></small>
 
@@ -56,14 +56,14 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-md-6">
-                                <label for="email">Email address <span class="asterisk">*</span></label>
+                                <label for="email">Địa chỉ email <span class="asterisk">*</span></label>
                                 <input type="text" name="email" id="email" class="form-control" aria-describedby="helpId" onkeyup="validateEmail(this)">
                                 <small class="addAccErr" id="email-err"></small>
 
                             </div>
 
                             <div class="col-md-6">
-                                <label for="phone">Phone number <span class="asterisk">*</span></label>
+                                <label for="phone">Số điện thoại <span class="asterisk">*</span></label>
                                 <input type="text" name="phone" id="phone" class="form-control" aria-describedby="helpId" onkeyup="validatePhone(this)">
                                 <small class="addAccErr" id="phone-err"></small>
 
@@ -76,7 +76,7 @@
 
 
                         <div class="form-group">
-                            <label for="province">Province/City <span class="asterisk">*</span></label>
+                            <label for="province">Tỉnh/Thành phố <span class="asterisk">*</span></label>
                             <select class="form-control" id="province" name="province">
                                 <?php foreach ($provinces as $province) : ?>
                                     <option value="<?= $province['value'] ?>">
@@ -87,7 +87,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="address">Address <span class="asterisk">*</span></label>
+                            <label for="address">Địa chỉ <span class="asterisk">*</span></label>
                             <input type="text" name="address" id="address" class="form-control" aria-describedby="helpId" onkeyup="validateNotEmpty(this, 'Address')">
                             <small class="addAccErr" id="address-err"></small>
 
@@ -101,30 +101,30 @@
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                     <div class="bill-form-block" style="border: none; padding-left: 2rem; padding-right:0">
                         <div class="form-group">
-                            <label for="password">Password <span class="asterisk">*</span></label>
+                            <label for="password">Mật khẩu <span class="asterisk">*</span></label>
                             <input id="password" type="password" class="form-control" name="password" autocomplete="current-password" onkeyup="validatePassword(this);">
                             <small class="addAccErr" id="password-err"></small>
 
                         </div>
 
                         <div class="form-group">
-                            <label for="password">Confirm Password <span class="asterisk">*</span></label>
+                            <label for="password">Xác nhận mật khẩu <span class="asterisk">*</span></label>
                             <input id="confirm_password" type="password" class="form-control" name="password_confirmation" autocomplete="current-password" onkeyup="validateConfirmPassword(this, 'password');">
                             <small class="addAccErr" id="confirm_password-err"></small>
                         </div>
 
 
                         <div class="form-group">
-                            <label for="role">Role</label>
+                            <label for="role">Vai trò</label>
 
                             <select name="role" class="form-control">
                                 <option value="admin">Admin</option>
-                                <option value="customer">Customer</option>
+                                <option value="customer">Khách hàng</option>
                             </select>
                         </div>
 
                         <div class="form-group" style="border-top: 1px solid lightgray; padding-top: 1.5rem;">
-                            <button type="submit" class="btn-root border-root place-order-btn">Create Account</button>
+                            <button type="submit" class="btn-root border-root place-order-btn">Tạo tài khoản</button>
                         </div>
 
 

@@ -16,13 +16,13 @@
 <table class="table table-hover">
     <thead>
         <tr>
-            <th>Review ID</th>
-            <th>Customer</th>
+            <th>ID</th>
+            <th>Khách hàng</th>
             <th>Email</th>
-            <th class="text-center">Rating</th>
-            <th class="text-center">Content</th>
-            <th class="text-center">Created At</th>
-            <th class="text-center">Actions</th>
+            <th class="text-center">Đánh giá</th>
+            <th class="text-center">Bình luận</th>
+            <th class="text-center">Ngày đăng</th>
+            <th class="text-center">Xóa</th>
         </tr>
     </thead>
     <tbody>

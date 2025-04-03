@@ -17,11 +17,11 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Product Name</th>
+            <th>Sản phẩm</th>
             <th>Image</th>
-            <th class="text-center">Average Rating</th>
-            <th class="text-center">No. of Reviews</th>
-            <th class="text-center">Actions</th>
+            <th class="text-center">Trung bình đánh giá</th>
+            <th class="text-center">Thứ tự Review</th>
+            <th class="text-center">Thông tin thêm</th>
         </tr>
     </thead>
     <tbody>

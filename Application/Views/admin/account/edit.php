@@ -14,13 +14,13 @@
                         </h2>
                         <div class="form-group row">
                             <div class="col-md-6">
-                                <label for="fname">First name</label>
+                                <label for="fname">Tên</label>
                                 <input value="<?= $user['fname'] ?>" type="text" name="fname" id="fname" class="form-control" aria-describedby="helpId" disabled>
 
                             </div>
 
                             <div class="col-md-6">
-                                <label for="lname">Last name</label>
+                                <label for="lname">Họ</label>
                                 <input value="<?= $user['lname'] ?>" type="text" name="lname" id="lname" class="form-control" aria-describedby="helpId" disabled>
 
 
@@ -31,20 +31,20 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-md-6">
-                                <label for="email">Email address</label>
+                                <label for="email">Địa chỉ email</label>
                                 <input value="<?= $user['email'] ?>" type="text" name="email" id="email" class="form-control" aria-describedby="helpId" disabled>
 
                             </div>
 
                             <div class="col-md-6">
-                                <label for="phone">Phone number</label>
+                                <label for="phone">Số điện thoại</label>
                                 <input value="<?= $user['phone'] ?>" type="text" name="phone" id="phone" class="form-control" aria-describedby="helpId" disabled>
                             </div>
 
                         </div>
 
                         <div class="form-group">
-                            <label for="province">Province/City</label>
+                            <label for="province">Tỉnh/Thành phố</label>
 
 
                             <input value="<?= $user['province'] ?>" type="text" class="form-control" disabled>
@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="address">Address</label>
+                            <label for="address">Địa chỉ</label>
 
                             <input value="<?= $user['address'] ?>" type="text" name="address" id="address" class="form-control" aria-describedby="helpId" disabled>
                         </div>
@@ -64,12 +64,12 @@
                             <label for="status">Status</label>
                             <small id="helpId" class="text-muted">Blocked user will not be able to place order or review products</small>
                             <select name="status" class="form-control">
-                                <option value="1" <?= $user['status'] == '1' ? 'selected' : '' ?>>Active</option>
-                                <option value="0" <?= $user['status'] == '0' ? 'selected' : '' ?>>Blocked</option>
+                                <option value="1" <?= $user['status'] == '1' ? 'selected' : '' ?>>Hoạt động</option>
+                                <option value="0" <?= $user['status'] == '0' ? 'selected' : '' ?>>Chặn</option>
                             </select>
 
                         </div>
-                        <button type="submit" class="btn btn-primary">Save Data</button>
+                        <button type="submit" class="btn btn-primary">Lưu</button>
                     </div>
 
                 </div>

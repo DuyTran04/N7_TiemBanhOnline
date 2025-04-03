@@ -16,15 +16,15 @@
         <tr>
 
             <th>ID</th>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Address</th>
-            <th>Province</th>
-            <th>Created at</th>
-            <th>Status</th>
-            <th class="text-center">Quantity</th>
-            <th>Total</th>
-            <th class="text-center"> Detail</th>
+            <th>Tên</th>
+            <th>Số điện thoại</th>
+            <th>Địa chỉ</th>
+            <th>Tỉnh/Thành phố</th>
+            <th>Ngày đặt</th>
+            <th>Trạng thái</th>
+            <th class="text-center">Số lượng</th>
+            <th>Thành tiền</th>
+            <th class="text-center"> Thông tin chi tiết</th>
         </tr>
     </thead>
     <tbody>
@@ -54,16 +54,16 @@
                 </td>
                 <td>
                     <?php if ($order['status'] == 1) : ?>
-                        <span class="badge badge-info">Pending</span>
+                        <span class="badge badge-info">Đang chờ</span>
                     <?php endif; ?>
                     <?php if ($order['status'] == 2) : ?>
-                        <span class="badge badge-warning">Delivering</span>
+                        <span class="badge badge-warning">Đang vận chuyển</span>
                     <?php endif; ?>
                     <?php if ($order['status'] == 3) : ?>
-                        <span class="badge badge-danger">Cancelled</span>
+                        <span class="badge badge-danger">Đã hủy</span>
                     <?php endif; ?>
                     <?php if ($order['status'] == 0) : ?>
-                        <span class="badge badge-success">Delivered</span>
+                        <span class="badge badge-success">Đã vận chuyển</span>
                     <?php endif; ?>
                 </td>
                 <td class="text-center">

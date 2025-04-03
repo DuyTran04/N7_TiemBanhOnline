@@ -17,11 +17,11 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Name</th>
+            <th>Tên khách hàng</th>
             <th>Email</th>
-            <th>Phone</th>
-            <th class="text-center">Message</th>
-            <th class="text-center">Created At</th>
+            <th>Số điện thoại</th>
+            <th class="text-center">Nội dung</th>
+            <th class="text-center">Ngày gửi</th>
         </tr>
     </thead>
     <tbody>

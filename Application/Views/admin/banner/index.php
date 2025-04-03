@@ -21,7 +21,7 @@
             <th>Trạng thái</th>
             <th>Ngày tạo</th>
             <th>Ảnh</th>
-            <th class="text-right">Actions</th>
+            <th class="text-right">Sửa/Xóa</th>
         </tr>
     </thead>
     <tbody>
@@ -32,10 +32,10 @@
                 <td><?= $model['site'] ?></td>
                 <td>
                     <?php if ($model['status'] == 0) { ?>
-                        <span class="badge badge-danger">Hidden</span>
+                        <span class="badge badge-danger">Ẩn</span>
                     <?php } else { ?>
 
-                        <span class="badge badge-success">Visible</span>
+                        <span class="badge badge-success">Hiển thị</span>
                     <?php } ?>
                 </td>
                 <td><?= $model['created_at'] ?></td>

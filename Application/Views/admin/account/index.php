@@ -17,15 +17,15 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Name</th>
+            <th>Tên</th>
             <th>Email</th>
-            <th>Phone</th>
-            <th>Address</th>
-            <th>Province</th>
-            <th>Role</th>
-            <th>Status</th>
-            <th>Created at</th>
-            <th class="text-right">Actions</th>
+            <th>Số điện thoại</th>
+            <th>Địa chỉ</th>
+            <th>Tỉnh/Thành phố</th>
+            <th>Vai trò</th>
+            <th></th>Trạng thái</th>
+            <th>Ngày tạo</th>
+            <th class="text-right">Sửa</th>
         </tr>
     </thead>
     <tbody>
@@ -41,10 +41,10 @@
                 </td>
                 <td>
                     <?php if ($account['status'] == 0) : ?>
-                        <span class="badge badge-danger">Blocked</span>
+                        <span class="badge badge-danger">Chặn</span>
                     <?php else : ?>
 
-                        <span class="badge badge-success">Active</span>
+                        <span class="badge badge-success">Hoạt động</span>
                     <?php endif; ?>
                 </td>
                 <td><?= $account['created_at'] ?></td>
