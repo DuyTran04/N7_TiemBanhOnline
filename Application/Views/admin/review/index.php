@@ -20,7 +20,7 @@
             <th>Sản phẩm</th>
             <th>Image</th>
             <th class="text-center">Trung bình đánh giá</th>
-            <th class="text-center">Thứ tự Review</th>
+            <th class="text-center">Số lượt bình luận</th>
             <th class="text-center">Thông tin thêm</th>
         </tr>
     </thead>
